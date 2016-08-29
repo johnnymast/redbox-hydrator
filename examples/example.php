@@ -10,7 +10,7 @@ class User {
     /**
      * @return string
      */
-    public function getUsername ()
+    public function getUsername()
     {
         return $this->username;
     }
@@ -18,7 +18,7 @@ class User {
     /**
      * @return string
      */
-    public function getPassword ()
+    public function getPassword()
     {
         return $this->password;
     }

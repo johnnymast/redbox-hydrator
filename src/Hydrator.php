@@ -17,7 +17,7 @@ class Hydrator
      * @param $destination
      * @internal param null $subject
      */
-    public function __construct ($destination)
+    public function __construct($destination)
     {
         $this->destination = $destination;
     }
@@ -26,7 +26,7 @@ class Hydrator
      * @param $destination
      * @return Hydrator
      */
-    public static function hydrate ($destination)
+    public static function hydrate($destination)
     {
         return new Hydrator($destination);
     }
@@ -36,9 +36,9 @@ class Hydrator
      * @return null
      * @throws \Exception
      */
-    public function with ($source = [])
+    public function with($source = [])
     {
-        if (is_array($source) == false) {
+        if (is_array($source) === false) {
             throw new \Exception('Source should be an array');
         }
 
@@ -51,9 +51,9 @@ class Hydrator
      * @return null
      * @throws \Exception
      */
-    private function run ()
+    private function run()
     {
-        if (is_object($this->destination) == false) {
+        if (is_object($this->destination) === false) {
             throw new \Exception('Destination is not an object');
         }
 
@@ -68,9 +68,9 @@ class Hydrator
 
             if (isset($this->source[$name])) {
                 $value = $this->source[$name];
-                $readonly = ($property->isPublic() == false && $property->isStatic() == false);
+                $readonly = ($property->isPublic() === false && $property->isStatic() === false);
 
-                if ($readonly == true) {
+                if ($readonly === true) {
                     $property->setAccessible(true);
                 }
                 $property->setValue($this->destination, $value);

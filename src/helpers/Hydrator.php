@@ -8,7 +8,7 @@ if (function_exists('Hydrate') === false) {
      * @return Hydrator
      * @internal param $destination
      */
-    function Hydrate ($destination)
+    function Hydrate($destination)
     {
         return new Hydrator($destination);
     }
