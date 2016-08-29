@@ -19,7 +19,52 @@ Dit will also require **PHPUnit** 4.6 but that will be installed upon installing
   
 ## Examples 
 
-...
+There are serveral methods of using the package.
+
+```php
+
+/**
+ * Method 1
+ */
+$result1 = Hydrator::hydrate(new User())->with(
+    [
+        'username' => 'abc',
+        'password' => 'pass'
+    ]
+);
+
+```
+
+```php
+
+/**
+ * Method 2
+ */
+$result2 = Hydrate(new User())->with(
+    [
+        'username' => 'abc',
+        'password' => 'pass'
+    ]
+);
+
+
+```
+
+
+```php
+
+/**
+ * Method 3
+ */
+$hydrator = new Hydrator(new User());
+$result3 = $hydrator->with([
+    [
+        'username' => 'abc',
+        'password' => 'pass'
+    ]
+]);
+```
+
 
 ## Troubleshooting
 
