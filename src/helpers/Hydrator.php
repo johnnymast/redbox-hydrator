@@ -2,8 +2,14 @@
 use Redbox\Hydrate\Hydrator;
 
 if (function_exists('Hydrate') === false) {
-    function Hydrate ($instance)
+
+    /**
+     * @param $destination
+     * @return Hydrator
+     * @internal param $destination
+     */
+    function Hydrate ($destination)
     {
-        return new Hydrator($instance);
+        return new Hydrator($destination);
     }
 }
