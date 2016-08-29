@@ -25,6 +25,7 @@ class HydratorBasicTests extends \PHPUnit_Framework_TestCase
      */
     public function testFunctionHydrator ($username, $password)
     {
+        /** @var SampleUserClass $result */
         $result = Hydrator::hydrate(new SampleUserClass())->with(
             [
                 'username' => $username,
@@ -44,6 +45,7 @@ class HydratorBasicTests extends \PHPUnit_Framework_TestCase
      */
     public function testWrappedHydration ($username, $password)
     {
+        /** @var SampleUserClass $result */
         $result = Hydrator::hydrate(new SampleUserClass())->with(
             [
                 'username' => $username,
@@ -62,9 +64,11 @@ class HydratorBasicTests extends \PHPUnit_Framework_TestCase
      * @param $username
      * @param $password
      */
-    public function testContructedHydration ($username, $password)
+    public function testConstructedHydration ($username, $password)
     {
         $hydrator = new Hydrator(new SampleUserClass());
+
+        /** @var SampleUserClass $result */
         $result = $hydrator->with(
             [
                 'username' => $username,
@@ -76,5 +80,4 @@ class HydratorBasicTests extends \PHPUnit_Framework_TestCase
         $this->assertEquals($username, $result->getUsername());
         $this->assertEquals($password, $result->getPassword());
     }
-
 }

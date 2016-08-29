@@ -1,7 +1,6 @@
 <?php
 namespace Redbox\Hydrate\Tests;
 
-use Prophecy\Exception\Exception;
 use Redbox\Hydrate\Hydrator;
 
 class HydratorExceptionTests extends \PHPUnit_Framework_TestCase
