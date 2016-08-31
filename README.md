@@ -29,7 +29,7 @@ $ composer require redbox/hydrate
 If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-hydrator/) or [phpclasses.org](http://www.phpclasses.org/package/9929-PHP-Quickly-Hydrate-classes-from-arrays.html) or any other) you will need composer installed on your machine.
 The reason for this is that Redbox-hydrate comes without the vendor directory which is required to run the package.
 
-First of all if you don't have composer installed you can find it [here](https://getcomposer.org/) follow the instructions and don't get intimidated in fact its really really easy to install.
+First of all if you don't have composer installed you can find it [here](https://getcomposer.org/). Follow the instructions and please don't get intimidated in fact its really really easy to install.
 
 In the this sample i will assume you have composer installed (on any machine). Go to the package root (where composer.json is located) and execute the following command.
 
