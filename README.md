@@ -53,7 +53,7 @@ I have gone to great length to provide a special (read sexy) and tiny API for yo
 
 ### Static class method 
 
-In this example we will hydrate $result1 with the passed values to the with() function.
+In this example we will hydrate a new instance of class User and return it as $result1 using with with() function.
 
 ```php
 use Redbox\Hydrate\Hydrator;
