@@ -6,7 +6,7 @@
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Contact author)](https://twitter.com/intent/tweet?text=@mastjohnny)
 
 # Redbox-hydrate
-
+ 
 Hydrating an object is fancy talk for populating properties on PHP objects. This Hydrator helps you to quickly **hydrate** new class instances and returns the populated result. Please note it does not mether if you have private or protected properties in your class it will take care of that for you. Look in the examples folder for basic [examples](examples).
 
 ## Examples 
