@@ -36,7 +36,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 );
 
 ```
-## Use the Hydrate function the package provides
+## Use the Hydrate function
 
 ```php
 
