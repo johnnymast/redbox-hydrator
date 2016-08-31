@@ -14,7 +14,38 @@ This package only requires the following:
 
 * PHP >= 5.40 (But higher is always better)
 * [Composer](https://getcomposer.org/) for autoloading
-  
+
+## Installation
+
+Using [composer](https://packagist.org/packages/redbox/scan):
+
+```bash
+$ composer require redbox/hydrator
+```
+
+## Installation trough archive download
+
+If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-hydrator/) or [phpclasses.org](http://www.google.com) or any other) you will need composer installed on your machine.
+The reason for this is that Redbox-scan comes without the require vendor directory which is required to run the package.
+
+First of all if you don't have composer installed you can find it [here](https://getcomposer.org/) follow the instructions and don't get intimidated in fact its really really easy to install.
+
+In the this sample i will assume you have composer installed (on any machine). Go to the package root (where composer.json is located) and execute the following command.
+
+```bash
+$ composer install  --no-dev
+```
+
+Now your almost ready to go. In your project require the redbox-scan.php (located in the package root). Assuming that Redbox-scan was installed in ./lib/redbox-hydrator/ your php file would look like this.
+
+```php
+<?php
+require 'lib/redbox-hydrator/redbox-hydrator.php';
+// more of your nice code below
+```
+
+And you are ready use Redbox-hydrator in your application.
+
 ## Examples 
 
 There are serveral methods of using the package. You can use any kind of API style you see fit in your operation for example.
