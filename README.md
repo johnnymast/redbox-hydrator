@@ -115,7 +115,7 @@ $result3 = $hydrator->with([
 
 ## Author
 
-Redbox-hydrate is created and maintained by [Johnny Mast](mastjohnny@gmail.com). For feature requests and suggestions
+Redbox-hydrate is created and maintained by [Johnny Mast](mailto:mastjohnny@gmail.com). For feature requests and suggestions
 you could consider sending me an e-mail.
 
 ## License
