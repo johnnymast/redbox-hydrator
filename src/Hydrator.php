@@ -7,6 +7,7 @@ class Hydrator
      * @var null
      */
     protected $destination = null;
+
     /**
      * @var array
      */
@@ -73,6 +74,7 @@ class Hydrator
                 if ($readonly === true) {
                     $property->setAccessible(true);
                 }
+
                 $property->setValue($this->destination, $value);
             }
         }
