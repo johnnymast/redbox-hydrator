@@ -26,7 +26,7 @@ $ composer require redbox/hydrate
 
 ## Installation trough archive download
 
-If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-hydrator/) or [phpclasses.org](http://www.google.com) or any other) you will need composer installed on your machine.
+If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-hydrator/) or [phpclasses.org](http://www.phpclasses.org/package/9929-PHP-Quickly-Hydrate-classes-from-arrays.html) or any other) you will need composer installed on your machine.
 The reason for this is that Redbox-scan comes without the require vendor directory which is required to run the package.
 
 First of all if you don't have composer installed you can find it [here](https://getcomposer.org/) follow the instructions and don't get intimidated in fact its really really easy to install.
