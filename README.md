@@ -13,7 +13,7 @@ This Hydrator gives you the power to quickly hydrate any class instance. layman'
 This package only requires the following:
 
 * PHP >= 5.40 (But higher is always better)
-* Composer for autoloading
+* [Composer](https://getcomposer.org/) for autoloading
   
 ## Examples 
 
