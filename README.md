@@ -108,11 +108,6 @@ $result3 = $hydrator->with([
 ]);
 ```
 
-
-## Troubleshooting
-
-...
-
 ## Author
 
 Redbox-hydrate is created and maintained by [Johnny Mast](mailto:mastjohnny@gmail.com). For feature requests and suggestions
