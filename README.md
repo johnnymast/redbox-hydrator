@@ -91,7 +91,7 @@ $result2 = Hydrate(new User())->with(
 
 ## Instantiate a new Hydrator
 
-Plain old PHP, create an instance of the hydrator and call the with(()) function with property values to will an instance of the User class with. ***Please note*** There is something off with this method as if your doing this inside a loop it might consome some memory because of all the instances you create.
+Plain old PHP, create an instance of the hydrator and call the with( ) function with property values to will an instance of the User class with. ***Please note*** There is something off with this method as if your doing this inside a loop it might consome some memory because of all the instances you create.
 
 ```php
 use Redbox\Hydrate\Hydrator;
