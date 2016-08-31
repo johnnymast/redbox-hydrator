@@ -2,7 +2,7 @@
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/johnnymast/redbox-hydrator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-hydrator/?branch=master)
 [![Code Coverage](https://scrutinizer-ci.com/g/johnnymast/redbox-hydrator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-hydrator/?branch=master)
 [![GitHub stars](https://img.shields.io/badge/HHVM-Ready-green.svg)](http://hhvm.com/)
-[![GitHub stars](https://img.shields.io/badge/PHP7.1-Ready-green.svg)](http://hhvm.com/)
+[![GitHub stars](https://img.shields.io/badge/PHP 7.1-Ready-green.svg)](http://hhvm.com/)
 [![Twitter URL](https://img.shields.io/twitter/url/http/shields.io.svg?style=social&label=Contact author)](https://twitter.com/intent/tweet?text=@mastjohnny)
 
 # Redbox-hydrate
