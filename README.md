@@ -19,7 +19,9 @@ Dit will also require **PHPUnit** 4.6 but that will be installed upon installing
   
 ## Examples 
 
-There are serveral methods of using the package.
+There are serveral methods of using the package. You can use any kind of API style you see fit in your operation for example.
+
+## Use the static function method 
 
 ```php
 
@@ -34,6 +36,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 );
 
 ```
+## Use the Hydrate function the package provides
 
 ```php
 
@@ -50,6 +53,7 @@ $result2 = Hydrate(new User())->with(
 
 ```
 
+## Instantiate a new Hydrator
 
 ```php
 
