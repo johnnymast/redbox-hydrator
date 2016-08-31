@@ -20,7 +20,7 @@ This package only requires the following:
 Using [composer](https://packagist.org/packages/redbox/scan):
 
 ```bash
-$ composer require redbox/hydrator
+$ composer require redbox/hydrate
 ```
 
 ## Installation trough archive download
