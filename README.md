@@ -41,7 +41,7 @@ Now your almost ready to go. In your project require the redbox-hydrate.php (loc
 
 ```php
 <?php
-require 'lib/redbox-hydrator/redbox-hydrator.php';
+require 'lib/redbox-hydrate/redbox-hydrate.php';
 // more of your nice code below
 ```
 
@@ -49,7 +49,7 @@ And you are ready use Redbox-hydrate in your application.
 
 ## Examples 
 
-There are serveral methods of using the package. You can use any kind of API style you see fit in your operation for example.
+I have gone to great length to provide a special (read sexy) sexy and tiny API for you. You can use any kind of API style you see fit in your operation for example.
 
 ### Static class method 
 
