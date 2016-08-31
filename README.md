@@ -13,8 +13,7 @@ This Hydrator gives you the power to quickly hydrate any class instance. layman'
 This package only requires the following:
 
 * PHP >= 5.40 (But higher is always better)
-
-Dit will also require **PHPUnit** 4.6 but that will be installed upon installing the package using composer. 
+* Composer for autoloading
   
 ## Examples 
 
