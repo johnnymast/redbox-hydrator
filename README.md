@@ -118,3 +118,7 @@ you could consider sending me an e-mail.
 Redbox-hydrate is released under the MIT public license.
 
 <https://github.com/johnnymast/redbox-hydrator/blob/master/LICENSE.md>
+
+## Enjoy
+
+ Oh and if you've come down this far, you might as well [follow me](https://twitter.com/mastjohnny) on twitter.
