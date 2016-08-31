@@ -6,8 +6,7 @@
 
 # Redbox-hydrate
 
-Please note this is not ready!!
-  
+This Hydrator gives you the power to quickly hydrate any class instance. layman's terms this means quicky assiging data to a given class properties. 
   
 ## System Requirements
 
