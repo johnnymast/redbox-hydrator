@@ -50,7 +50,7 @@ And you are ready use Redbox-hydrator in your application.
 
 There are serveral methods of using the package. You can use any kind of API style you see fit in your operation for example.
 
-## Use the static function method 
+## Static class method 
 
 ```php
 
@@ -65,7 +65,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 );
 
 ```
-## Use the Hydrate function
+## Hydrate function
 
 ```php
 
