@@ -54,6 +54,7 @@ There are serveral methods of using the package. You can use any kind of API sty
 ### Static class method 
 
 ```php
+use Redbox\Hydrate\Hydrator;
 
 /**
  * Method 1
@@ -69,6 +70,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 ## Hydrate function
 
 ```php
+use Redbox\Hydrate\Hydrator;
 
 /**
  * Method 2
@@ -86,6 +88,7 @@ $result2 = Hydrate(new User())->with(
 ## Instantiate a new Hydrator
 
 ```php
+use Redbox\Hydrate\Hydrator;
 
 /**
  * Method 3
