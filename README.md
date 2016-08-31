@@ -6,7 +6,7 @@
 
 # Redbox-hydrate
 
-This Hydrator gives you the power to quickly hydrate any class instance. layman's terms this means quicky assiging data to a given class properties. Look in the examples folder for basic [examples](examples) of how to use the package.
+This Hydrator gives you the power to quickly **hydrate** an class instance. layman's terms this means quicky assiging data to a given class properties. Please note it does not mether if you have private or protected properties in your class it will take care of that. Look in the examples folder for basic [examples](examples) of how to use the package.
 
 ## System Requirements
 
