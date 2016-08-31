@@ -6,16 +6,13 @@
 
 # Redbox-hydrate
 
-This Hydrator gives you the power to quickly hydrate any class instance. layman's terms this means quicky assiging data to a given class properties. 
-
-## Howto use the package
-Look in the examples folder for basic [examples](examples) of how to use the package.
+This Hydrator gives you the power to quickly hydrate any class instance. layman's terms this means quicky assiging data to a given class properties. Look in the examples folder for basic [examples](examples) of how to use the package.
 
 ## System Requirements
 
 This package only requires the following:
 
-* PHP >= 5.40
+* PHP >= 5.40 (But higher is always better)
 
 Dit will also require **PHPUnit** 4.6 but that will be installed upon installing the package using composer. 
   
