@@ -37,7 +37,7 @@ In the this sample i will assume you have composer installed (on any machine). G
 $ composer install  --no-dev
 ```
 
-Now your almost ready to go. In your project require the redbox-hydrate.php (located in the package root). Assuming that Redbox-scan was installed in ./lib/redbox-hydrator/ your php file would look like this.
+Now your almost ready to go. In your project require the redbox-hydrate.php (located in the package root). Assuming that Redbox-hydrate was installed in ./lib/redbox-hydrate/ your php file would look like this.
 
 ```php
 <?php
