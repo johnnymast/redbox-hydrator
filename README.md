@@ -49,9 +49,11 @@ And you are ready use Redbox-hydrate in your application.
 
 ## Examples 
 
-I have gone to great length to provide a special (read sexy) sexy and tiny API for you. You can use any kind of API style you see fit in your operation for example.
+I have gone to great length to provide a special (read sexy) and tiny API for you. You can use any kind of API style you see fit in your operation for example.
 
 ### Static class method 
+
+In this example we will hydrate $result1 with the passed values to the with() function.
 
 ```php
 use Redbox\Hydrate\Hydrator;
@@ -69,7 +71,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 ```
 ## Hydrate function
 
-***Please note: *** the package provides a function called Hydrate. This function is not conceiled in any namespace so its globaly available when you have the package loaded into your application. If any function in your code already exists the function will not be declared so it will not colide with your code. See [src/helpers/Hydrator.php](https://github.com/johnnymast/redbox-hydrator/blob/master/src/helpers/Hydrator.php) for more information.
+***Please note: *** the package provides a function called Hydrate. This function is not conceiled in any namespace so its globaly available when you have the package loaded into your application. If any function in your code already exists the function will not be declared so it will not colide with your code. See [src/helpers/Hydrator.php](https://github.com/johnnymast/redbox-hydrator/blob/master/src/helpers/Hydrator.php) for more information. In this example $result2 will be an instance of class User.
 
 ```php
 use Redbox\Hydrate\Hydrator;
