@@ -9,44 +9,6 @@
 
 Hydrating an object is fancy talk for populating properties on PHP objects. This Hydrator helps you to quickly **hydrate** new class instances and returns the populated result. Please note it does not mether if you have private or protected properties in your class it will take care of that for you. Look in the examples folder for basic [examples](examples).
 
-## System Requirements
-
-This package only requires the following:
-
-* PHP >= 5.40 (But higher is always better)
-* [Composer](https://getcomposer.org/) for autoloading
-
-## Installation
-
-Using [composer](https://packagist.org/packages/redbox/scan):
-
-```bash
-$ composer require redbox/hydrate
-```
-
-## Installation trough archive download
-
-If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-hydrator/) or [phpclasses.org](http://www.phpclasses.org/package/9929-PHP-Quickly-Hydrate-classes-from-arrays.html) or any other) you will need composer installed on your machine.
-The reason for this is that Redbox-hydrate comes without the vendor directory which is required to run the package.
-
-First of all if you don't have composer installed you can find it [here](https://getcomposer.org/). Follow the instructions and please don't get intimidated in fact its really really easy to install.
-
-In the this sample i will assume you have composer installed (on any machine). Go to the package root (where composer.json is located) and execute the following command.
-
-```bash
-$ composer install  --no-dev
-```
-
-Now your almost ready to go. In your project require the redbox-hydrate.php (located in the package root). Assuming that Redbox-hydrate was installed in ./lib/redbox-hydrate/ your php file would look like this.
-
-```php
-<?php
-require 'lib/redbox-hydrate/redbox-hydrate.php';
-// more of your nice code below
-```
-
-And you are ready use Redbox-hydrate in your application.
-
 ## Examples 
 
 I have gone to great length to provide a special (read sexy) and tiny API for you. You can use any kind of API style you see fit in your operation for example.
@@ -107,6 +69,44 @@ $result3 = $hydrator->with([
     ]
 ]);
 ```
+
+## System Requirements
+
+This package only requires the following:
+
+* PHP >= 5.40 (But higher is always better)
+* [Composer](https://getcomposer.org/) for autoloading
+
+## Installation
+
+Using [composer](https://packagist.org/packages/redbox/scan):
+
+```bash
+$ composer require redbox/hydrate
+```
+
+## Installation trough archive download
+
+If you download the package from a website (for example [github.io](https://github.com/johnnymast/redbox-hydrator/) or [phpclasses.org](http://www.phpclasses.org/package/9929-PHP-Quickly-Hydrate-classes-from-arrays.html) or any other) you will need composer installed on your machine.
+The reason for this is that Redbox-hydrate comes without the vendor directory which is required to run the package.
+
+First of all if you don't have composer installed you can find it [here](https://getcomposer.org/). Follow the instructions and please don't get intimidated in fact its really really easy to install.
+
+In the this sample i will assume you have composer installed (on any machine). Go to the package root (where composer.json is located) and execute the following command.
+
+```bash
+$ composer install  --no-dev
+```
+
+Now your almost ready to go. In your project require the redbox-hydrate.php (located in the package root). Assuming that Redbox-hydrate was installed in ./lib/redbox-hydrate/ your php file would look like this.
+
+```php
+<?php
+require 'lib/redbox-hydrate/redbox-hydrate.php';
+// more of your nice code below
+```
+
+And you are ready use Redbox-hydrate in your application.
 
 ## Author
 
