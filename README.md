@@ -15,7 +15,7 @@ Hydrating an object is fancy talk for populating properties on PHP objects. This
 ## Examples 
 
 I have gone to great length to provide a special (read sexy) and tiny API for you. You can use any kind of API style you see fit in your operation for example.
-
+ 
 ### Static class method 
 
 In this example we will hydrate a new instance of class User and return it as $result1 using with with() function.
