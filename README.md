@@ -54,7 +54,7 @@ $result2 = Hydrate(new User())->with(
 
 ## Instantiate a new Hydrator
 
-Plain old PHP, create your instance of the hydrator then call the with( ) function with the property values to fill an instance of the User class with. 
+Plain old PHP, create your instance of the hydrator then call the with( ) method.
 
 ***Please note*** There is something off with this method as if your doing this inside a loop it might consome some memory because of all the instances you create.
 
