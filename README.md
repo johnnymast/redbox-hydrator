@@ -56,7 +56,7 @@ $result2 = Hydrate(new User())->with(
 
 Plain old PHP, create your instance of the hydrator then call the with( ) method. 
 
-***Please note*** There is something off with this method as if your doing this inside a loop it might consume some memory because of all the instances you create. Please dont forget to use the unset function if you are inside any kind of loop.
+***Please note*** There is something off with this method. If your doing this inside a loop it might consume some memory because of all the instances you create. Please don't forget to use the unset function if you are inside any kind of loop.
 
 ```php
 use Redbox\Hydrate\Hydrator;
