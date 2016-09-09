@@ -36,7 +36,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 ```
 ## Hydrate function
 
-***Please note:*** the package provides a function called Hydrate. This function is not conceiled in any namespace so its globaly available when you have the package loaded into your application. If any function in your code already exists the function will not be declared so it will not colide with your code. See [src/helpers/Hydrator.php](https://github.com/johnnymast/redbox-hydrator/blob/master/src/helpers/Hydrator.php) for more information. In this example $result2 will be an instance of class User.
+***Please note:*** the package provides a function called Hydrate. This function is not concealed in any namespace so its globaly available when you have the package loaded into your application. If any function in your code already exists the function will not be declared so it will not colide with your code. See [src/helpers/Hydrator.php](https://github.com/johnnymast/redbox-hydrator/blob/master/src/helpers/Hydrator.php) for more information. In this example $result2 will be an instance of class User.
  
 ```php
 use Redbox\Hydrate\Hydrator;
@@ -54,7 +54,7 @@ $result2 = Hydrate(new User())->with(
 
 ## Instantiate a new Hydrator
 
-Plain old PHP, create an instance of the hydrator and call the with( ) function with the property values to fill an instance of the User class with. ***Please note*** There is something off with this method as if your doing this inside a loop it might consome some memory because of all the instances you create.
+Plain old PHP, create your instance of the hydrator then call the with( ) function with the property values to fill an instance of the User class with. ***Please note*** There is something off with this method as if your doing this inside a loop it might consome some memory because of all the instances you create.
 
 ```php
 use Redbox\Hydrate\Hydrator;
