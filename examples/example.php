@@ -45,21 +45,23 @@ $result2 = Hydrate(new User())->with(
     ]
 );
 
+
 /**
  * Method 3
  */
 $hydrator = new Hydrator(new User());
-$result3 = $hydrator->with([
+$result3 = $hydrator->with(
     [
-        'username' => 'abc',
+        'username' => 'abcs',
         'password' => 'pass'
     ]
-]);
+);
 
+unset($hydrator);
 
 /**
  * Dump what ever you want
  */
 //var_dump($result1);
 //var_dump($result2);
-//var_dump($result3);
+var_dump($result3);
