@@ -45,7 +45,6 @@ $result2 = Hydrate(new User())->with(
     ]
 );
 
-
 /**
  * Method 3
  */
@@ -60,8 +59,8 @@ $result3 = $hydrator->with(
 unset($hydrator);
 
 /**
- * Dump what ever you want
+ * Dump whatever you want
  */
 //var_dump($result1);
 //var_dump($result2);
-var_dump($result3);
+//var_dump($result3);
