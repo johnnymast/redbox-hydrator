@@ -76,7 +76,7 @@ $result3 = $hydrator->with([
 
 ## System Requirements
 
-This package only requires the following:
+Below are the minimum requirements to use this package:
 
 * PHP >= 5.40 (But higher is always better)
 * [Composer](https://getcomposer.org/) for autoloading
@@ -114,7 +114,7 @@ And you are ready use Redbox-hydrate in your application.
 
 ## Author
 
-Redbox-hydrate is created and maintained by [Johnny Mast](mailto:mastjohnny@gmail.com). For feature requests and suggestions
+Redbox-hydrate is created and maintained by [Johnny Mast](mailto:mastjohnny@gmail.com). For feature requests or suggestions
 you could consider sending me an e-mail.
 
 ## License
