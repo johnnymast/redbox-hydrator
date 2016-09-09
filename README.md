@@ -39,7 +39,7 @@ $result1 = Hydrator::hydrate(new User())->with(
 ***Please note:*** the package provides a function called Hydrate. This function is not concealed in any namespace so its globally available when you have the package loaded into your application. If any function in your code already exists the function will not be declared so it will not colide with your code. See [src/helpers/Hydrator.php](https://github.com/johnnymast/redbox-hydrator/blob/master/src/helpers/Hydrator.php) for more information. In this example $result2 will be an instance of class User.
  
 ```php
-use Redbox\Hydrate\Hydrator;
+use function Redbox\Hydrate\Helpers\Hydrate;
 
 /**
  * Method 2
