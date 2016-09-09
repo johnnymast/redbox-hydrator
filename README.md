@@ -11,7 +11,7 @@
 
 # Redbox-hydrate
  
-Hydrating an object is fancy talk for populating properties on PHP objects. This Hydrator helps you to quickly **hydrate** new class instances and returns the populated result. ***Please note*** it does not mether if you have private or protected properties in your class it will take care of that for you. Look in the examples folder for basic [https://github.com/johnnymast/redbox-hydrator/tree/master/examples](examples).
+Hydrating an object is fancy talk for populating properties on PHP objects. This Hydrator helps you to quickly **hydrate** new class instances and returns the populated result. ***Please note*** it does not mether if you have private or protected properties in your class it will take care of that for you. Look in the examples folder for basic [examples](https://github.com/johnnymast/redbox-hydrator/tree/master/examples).
 
 ## Examples 
 
