@@ -58,7 +58,6 @@ class HydratorBasicTests extends \PHPUnit_Framework_TestCase
         $this->assertEquals($password, $result->getPassword());
     }
 
-
     /**
      * @dataProvider hydrationDataProvider
      * @param $username

@@ -4,7 +4,14 @@ namespace Redbox\Hydrate\Tests;
 
 class SampleUserClass
 {
+    /**
+     * @var string
+     */
     protected $username = '';
+
+    /**
+     * @var string
+     */
     private $password = '';
 
     /**
