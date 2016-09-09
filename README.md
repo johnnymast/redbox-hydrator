@@ -33,7 +33,6 @@ $result1 = Hydrator::hydrate(new User())->with(
         'password' => 'pass'
     ]
 );
-
 ```
 ## Hydrate function
 
@@ -51,8 +50,6 @@ $result2 = Hydrate(new User())->with(
         'password' => 'pass'
     ]
 );
-
-
 ```
 
 ## Instantiate a new Hydrator
@@ -83,7 +80,7 @@ Below are the minimum requirements to use this package:
 
 ## Installation
 
-Using [composer](https://packagist.org/packages/redbox/scan):
+Using [composer](https://packagist.org/packages/redbox/hydrate):
 
 ```bash
 $ composer require redbox/hydrate
