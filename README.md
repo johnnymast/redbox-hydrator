@@ -1,6 +1,6 @@
 ![redbox-logo-klein](https://cloud.githubusercontent.com/assets/121194/18277406/ac4d9868-744e-11e6-8994-86943704d0d4.png)
 
-![Build Status](https://travis-ci.org/johnnymast/redbox-hydrator.svg?branch=master)](https://travis-ci.org/johnnymast/redbox-hydrator)
+[![Build Status](https://travis-ci.org/johnnymast/redbox-hydrator.svg?branch=master)](https://travis-ci.org/johnnymast/redbox-hydrator)
 [![codecov](https://codecov.io/gh/johnnymast/redbox-hydrator/branch/master/graph/badge.svg)](https://codecov.io/gh/johnnymast/redbox-hydrator)
 [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/johnnymast/redbox-hydrator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/johnnymast/redbox-hydrator/?branch=master)
 [![PHP 7.1 Ready](https://img.shields.io/badge/HHVM-Ready-green.svg)](http://hhvm.com/)
